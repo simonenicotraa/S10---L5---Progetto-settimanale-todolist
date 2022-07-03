@@ -1,0 +1,38 @@
+:host{
+  text-align: center;
+}
+div{
+  text-align: initial;
+  width: 60%;
+  margin: 4rem auto;
+  box-sizing: border-box;
+  ul{
+
+
+    li{
+
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      input{
+        float: right;
+
+        width:2rem;
+        margin: auto 0;
+        height: 2rem;
+        margin-left: 2rem;
+        cursor: pointer;
+      }
+      button{
+        float: right;
+        color: rgb(255, 255, 255);
+        padding: 0.5rem;
+        margin: auto;
+        background-color: rgb(244, 62, 62);
+        &:hover{
+          background-color: rgb(169, 54, 54);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

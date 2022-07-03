@@ -1,0 +1,12 @@
+<div class="box"><h1>Task Completate</h1>
+<h2 *ngIf="newList.length == 0">
+  Oh no! Non hai ancora completato nessuna task
+</h2>
+<ul >
+  <div *ngFor="let item of newList">
+  <li *ngIf="item.completed==true" >
+    {{item.title}}
+  </li>
+</div>
+</ul>
+</div>

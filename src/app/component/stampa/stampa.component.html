@@ -1,0 +1,17 @@
+<h2 *ngIf="newList.length == 0">
+ Non hai nessuna task
+</h2>
+<div>
+<ul>
+  <li *ngFor="let item of newList">
+    <label for="check" > {{ item.title }}</label>
+    <input
+      id="check"
+      type="checkbox"
+      [checked]="item.completed"
+      (change)="item.completed = !item.completed"
+    />
+    <button type="button" (click)="removeTask(item)">Remove</button>
+  </li>
+</ul>
+</div>

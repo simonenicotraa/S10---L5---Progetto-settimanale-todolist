@@ -1,0 +1,22 @@
+:host{
+text-align: center;
+  input{
+    width: 40%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+  }
+  button{
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    padding: 0.3rem 0.8rem;
+    font-weight: bold;
+    &:hover{
+      background-color: lightgreen;
+      cursor: pointer;
+    }
+  }
+}
