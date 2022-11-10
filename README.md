@@ -1,6 +1,14 @@
 # Todolist
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+<h3 align="center"><strong>Tecnologie usate Front-end:</strong></br>
+<img src="https://user-images.githubusercontent.com/104636288/199508866-bc43861e-183c-443c-baa3-d6cc3fdc08f7.png" width="60px" height="60px" alt="Angular-Logo">
+<img src="https://user-images.githubusercontent.com/104636288/199512075-150cc2a6-2fdc-4d81-a5de-08f83ef0385e.png" width="60px" height="60px" alt="Sass-Logo"></h3>
+<p align="center">
+<img width="350" alt="todolist1" src="https://user-images.githubusercontent.com/104636288/201104783-9277fbb4-133e-4318-9cfb-3682867c952f.PNG">
+<img width="350" alt="todolist2" src="https://user-images.githubusercontent.com/104636288/201104803-ef955443-28eb-48ac-8014-b9ce5c2f61bd.PNG">
+<img width="350" alt="todolist3" src="https://user-images.githubusercontent.com/104636288/201104819-f2ac4697-9e07-4a24-bdbe-d092160fbab6.PNG">
+</p>
 
 ## Development server
 
